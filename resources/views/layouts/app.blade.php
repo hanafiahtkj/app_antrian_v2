@@ -18,8 +18,8 @@
 
         <style>
             body[data-layout=horizontal].dark-topbar .navbar-custom, body[data-layout=horizontal].dark-topbar .topbar {
-                background-color: #41cbd8;
-                background-image: url("{{ asset('img/bg.png') }}");
+                background-color: #078d5e;
+                /* background-image: url("{{ asset('img/bg.png') }}"); */
                 background-repeat: repeat;
                 background-position: center;
                 background-size: contain;
@@ -79,7 +79,7 @@
                     <span>
                         <img src="{{ asset('img/puskesmas.png') }}" alt="logo-small" style="height: 45px;">
                     </span>
-                    Puskesmas 9 Nopember
+                    Puskesmas
                 </a>
             </div>
             <!--end logo-->
@@ -169,8 +169,8 @@
         <!-- Footer Start -->
         <footer class="footer text-center">
             {{-- &copy; --}}
-            <img src="{{ asset('img/logo.png') }}"  style="margin-top: -5px; height:15px;"/>
-            <span class="text-muted d-none d-sm-inline-block">Polanka NadiaIntania. Some Right Reserved</span>
+            <img src="{{ asset('img/puskesmas.png') }}"  style="margin-top: -5px; height:15px;"/>
+            <span class="text-muted d-none d-sm-inline-block">2024. Some Right Reserved</span>
         </footer>
         <!-- end Footer -->
         <!--end footer-->

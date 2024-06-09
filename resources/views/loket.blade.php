@@ -14,7 +14,7 @@
                             <div class="col d-flex justify-content-center">
                                 <div>
                                     <p class="fs-2 fw-semibold text-center">UMUM</p>
-                                    <div class="card mb-2 border border-3" style="min-width: 25rem;">
+                                    <div class="card mb-2 border border-3" style="min-width: 23rem;">
                                         <div class="card-body">
                                             <p class="fs-1 fw-bold text-center mb-0" id="antrian-nomor1" style="font-size: 3.03125rem!important;">___</p>
                                             <p class="my-0 text-center">Status: <span id="antrian-status1">___</span></p>
@@ -30,7 +30,7 @@
                             <div class="col d-flex justify-content-center">
                                 <div>
                                     <p class="fs-2 fw-semibold text-center">PRIORITAS</p>
-                                    <div class="card mb-2 border border-3" style="min-width: 25rem;">
+                                    <div class="card mb-2 border border-3" style="min-width: 23rem;">
                                         <div class="card-body">
                                             <p class="fs-1 fw-bold text-center mb-0" id="antrian-nomor2" style="font-size: 3.03125rem!important;">___</p>
                                             <p class="my-0 text-center">Status: <span id="antrian-status2">___</span></p>

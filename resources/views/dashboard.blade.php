@@ -26,7 +26,7 @@
                         <div class="row">
                             <div class="col d-flex justify-content-center">
                                 <div>
-                                    <div class="card text-bg-info mb-3 px-4 py-2 border border-3 shadow" style="min-width: 35rem; border-color:#435177!important">
+                                    <div class="card text-bg-success mb-3 px-4 py-2 border border-3 shadow" style="min-width: 30rem; border-color:#078d5e!important">
                                         <div class="row no-gutters">
                                             <div class="col-md-3 align-self-center text-center">
                                                 <img class="" height="100" src="{{ asset('img/icons8-mic-100.png') }}" alt="Card image"
@@ -47,7 +47,7 @@
                             </div>
                             <div class="col d-flex justify-content-center">
                                 <div>
-                                    <div class="card text-bg-info mb-3 px-4 py-2 border border-3 shadow" style="min-width: 35rem; border-color:#435177!important">
+                                    <div class="card text-bg-success mb-3 px-4 py-2 border border-3 shadow" style="min-width: 30rem; border-color:#078d5e!important">
                                         <div class="row no-gutters">
                                             <div class="col-md-3 align-self-center text-center">
                                                 <img class="" height="100" src="{{ asset('img/icons8-monitor-100.png') }}" alt="Card image"

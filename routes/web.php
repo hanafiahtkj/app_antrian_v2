@@ -22,10 +22,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/antrian', [AntrianController::class, 'index'])->name('antrian');
-Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-Route::get('/loket', [LoketController::class, 'index'])->name('loket');
-Route::get('/monitoring', [MonitoringController::class, 'index'])->name('monitoring');
-Route::get('/monitoring/getAntrianByLoket', [MonitoringController::class, 'getAntrianByLoket'])->name('monitoring.getAntrianByLoket');
 
 Route::get('/antrian/getAntrianByLoket', [AntrianController::class, 'getAntrianByLoket'])->name('antrian.getAntrianByLoket');
 Route::post('/antrian/setAntrianByLoket', [AntrianController::class, 'setAntrianByLoket'])->name('antrian.setAntrianByLoket');
@@ -40,6 +36,11 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+    Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/loket', [LoketController::class, 'index'])->name('loket');
+    Route::get('/monitoring', [MonitoringController::class, 'index'])->name('monitoring');
+    Route::get('/monitoring/getAntrianByLoket', [MonitoringController::class, 'getAntrianByLoket'])->name('monitoring.getAntrianByLoket');
 
     Route::get('/admin', [AdminController::class, 'index'])->name('admin');
     Route::get('/admin/user/create', [AdminController::class, 'create'])->name('admin.user.create');

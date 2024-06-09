@@ -39,8 +39,8 @@
             <footer class="footer text-center mt-4">
                 <div>
                 {{-- &copy;  --}}
-                <img src="{{ asset('img/logo.png') }}"  style="margin-top: -5px; height:15px;display: inline;"/>
-                <span class="text-muted d-none d-sm-inline-block">Polanka NadiaIntania. Some Right Reserved</span>
+                <img src="{{ asset('img/puskesmas.png') }}"  style="margin-top: -5px; height:15px;display: inline;"/>
+                <span class="text-muted d-none d-sm-inline-block">2024. Some Right Reserved</span>
                 </div>
             </footer>
         </div>
