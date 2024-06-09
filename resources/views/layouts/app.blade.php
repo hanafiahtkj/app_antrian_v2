@@ -94,7 +94,7 @@
                             <div class="d-flex align-items-center">
                                 <img src="{{ asset('img/avatar.png') }}" alt="profile-user" class="rounded-circle me-0 me-md-2 thumb-sm" />
                                 <div class="user-namex">
-                                    <small class="d-block fw-semibold fs-5 fw-bold text-dark">Admin</small>
+                                    <small class="d-block fw-semibold fs-5 fw-bold text-dark">{{ auth()->user()->name }}</small>
                                     {{-- <span class=" fw-semibold font-12">Maria Gibson <i
                                             class="mdi mdi-chevron-down"></i></span> --}}
                                 </div>
