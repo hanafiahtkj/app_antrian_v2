@@ -35,7 +35,7 @@
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputEmail2">Username</label>
-                                <input type="text" name="username" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Username" value="{{ $data->name }}" required>
+                                <input type="text" name="username" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Username" value="{{ $data->username }}" required>
                             </div>
                             <div class="mb-3">
                                 <div class="alert alert-warning" role="alert">
